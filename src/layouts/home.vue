@@ -2,7 +2,7 @@
   <div>
     <app-header :menu="menu" />
     <slot />
-    <app-footer />
+    <app-footer :menu="menu"/>
   </div>
 </template>
 

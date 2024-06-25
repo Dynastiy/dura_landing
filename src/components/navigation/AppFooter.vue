@@ -2,9 +2,9 @@
   <div>
     <footer class="site-footer bg-primary lg:px-12 md:px-8 px-6 py-6">
       <div class="">
-        <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-8">
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-12">
           <div class="">
-            <img src="@/assets/brandImg/logo.svg" alt="" />
+            <img src="@/assets/brandImg/logo.svg" width="100" alt="" />
             <p class="text-white text-xs tracking-wide leading-normal mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nisi porro earum.
               Reiccusamus fuga! Autem ratione commodi dignissimos corrupti libero culpa!

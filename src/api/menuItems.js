@@ -8,14 +8,14 @@ const items = [
     isLink: true
   },
 
-  {
-    label: 'about',
-    href: '/about',
-    icon: 'icon-park-outline:transaction-order',
-    hasChildren: false,
-    parent: 'about',
-    isLink: true
-  },
+  // {
+  //   label: 'about',
+  //   href: '/about',
+  //   icon: 'icon-park-outline:transaction-order',
+  //   hasChildren: false,
+  //   parent: 'about',
+  //   isLink: true
+  // },
 
   {
     label: 'contact',

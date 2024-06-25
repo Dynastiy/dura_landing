@@ -1,7 +1,7 @@
 <template>
-  <header class="">
+  <header class="sticky top-0 bg-gray-50">
     <div class="container">
-      <nav class="flex justify-between items-center py-6 sticky top-0 bg-gray-50">
+      <nav class="flex justify-between items-center py-6 ">
         <span role="button" @click="$router.push('/')">
           <img src="@/assets/brandImg/logo.png" class="w-12" alt="" />
         </span>
@@ -14,36 +14,12 @@
           <ul class="flex gap-6 items-center">
             <li v-for="(item, idx) in menu" :key="idx">
               <router-link :to="item.href" class="block text-[13px] capitalize font-medium">
-                <span class="">{{ item.label }}</span>
+                <span class="">{{ item.label.split('-').join(' ') }}</span>
               </router-link>
             </li>
           </ul>
         </div>
       </nav>
-
-      <section class="grid lg:grid-cols-2 items-center h-full md:grid-cols-2 grid-cols-1 gap-6 mt-4">
-        <div>
-          <h6 class="text-sm text-gray400 uppercase">Lorem Ipsum is simply </h6>
-          <h1 class="lg:text-5xl md:text-4xl text-3xl font-extrabold">
-            Lorem Ipsum is simply dummy text of the printi Ipsum
-            has been the
-          </h1>
-          <h6 class="text-sm text-gray400 mt-3">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s, when an unknown
-            printer took a recently with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
-          </h6>
-          <div class="mt-3">
-            <button>
-              <img width="180" src="@/assets/img/playstore.svg" alt="">
-            </button>
-          </div>
-        </div>
-        <div class="flex justify-end">
-          <img class="lg:w-9/12 md:8-10/12 w-full" src="@/assets/brandImg/hero-section-img.svg" alt="" />
-        </div>
-      </section>
     </div>
 
     <Sidebar v-model:visible="visible" header="" position="right">
@@ -53,7 +29,7 @@
             <span class="text-[24px]">
               <icon :icon="item.icon" />
             </span>
-            <span class="">{{ item.label }}</span>
+            <span class="">{{ item.label.split('-').join(' ') }}</span>
           </span>
         </li>
       </ul>

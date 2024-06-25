@@ -1,5 +1,8 @@
 <template>
   <div class="flex flex-col gap-6 mt-6">
+    <section class="container">
+      <hero-section />
+    </section>
     <section>
       <features />
     </section>
@@ -16,7 +19,8 @@
 import Features from '@/components/home/Features.vue'
 import Process from '@/components/home/Process.vue'
 import Download from '@/components/home/Download.vue'
+import HeroSection from '@/components/home/HeroSection.vue'
 export default {
-  components: { Features, Process, Download }
+  components: { Features, Process, Download, HeroSection }
 }
 </script>

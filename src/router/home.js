@@ -2,6 +2,8 @@ import Home from '@/pages/Index.vue'
 import About from '@/pages/AboutUs.vue'
 import Contact from '@/pages/Contact.vue'
 import OurTeam from '@/pages/OurTeam.vue'
+import KYC from '@/pages/KYC.vue'
+import SubmittedKYC from '@/pages/SubmittedKYC.vue'
 
 const routes = [
   {
@@ -49,6 +51,30 @@ const routes = [
       requiresAuth: false,
       name: 'our-team',
       parent: 'our-team'
+    }
+  },
+
+  {
+    path: '/kyc',
+    name: 'kyc',
+    component: KYC,
+    meta: {
+      layout: 'home',
+      requiresAuth: false,
+      name: 'kyc',
+      parent: 'kyc'
+    }
+  },
+
+  {
+    path: '/submitted',
+    name: 'submitted',
+    component: SubmittedKYC,
+    meta: {
+      layout: 'home',
+      requiresAuth: false,
+      name: 'submitted',
+      parent: 'submitted'
     }
   },
 

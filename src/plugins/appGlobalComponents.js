@@ -51,6 +51,8 @@ import DataTable from 'primevue/datatable';
 import Column from 'primevue/column';
 import Rating from 'primevue/rating';
 
+import { Form, Field, ErrorMessage } from 'vee-validate'
+
 export default function registerComponents(app) {
     app.component('QRCodeVue', QrcodeVue)
     app.component('Sidebar', Sidebar)
@@ -62,4 +64,7 @@ export default function registerComponents(app) {
     app.component('TableColumn', Column)
     app.component('Rating', Rating)
     app.component('icon', Icon)
+    app.component('vForm', Form)
+app.component('Field', Field)
+app.component('ErrorMessage', ErrorMessage)
 }

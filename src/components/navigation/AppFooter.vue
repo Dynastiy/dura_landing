@@ -6,8 +6,11 @@
           <div class="">
             <img src="@/assets/brandImg/logo.svg" width="100" alt="" />
             <p class="text-white text-xs tracking-wide leading-normal mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nisi porro earum.
-              Reiccusamus fuga! Autem ratione commodi dignissimos corrupti libero culpa!
+              Dura Exchange is a secured decentralized trading platform/wallet that prioritizes user privacy,
+security, and full control over crypto currency assets. It offers a user-friendly interface for trading
+various cryptocurrencies, ensuring that users can execute transactions without intermediaries.
+The exchange supports a wide range of digital assets and provides advanced trading features.
+It allows users to store, send, receive, trade and convert various digital assets to fiat securely.
             </p>
             <ul class="flex gap-2 mt-3">
               <li>
